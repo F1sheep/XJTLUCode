@@ -25,7 +25,7 @@ public class bandMatrix {
         }
     }
 
-    public static void bandMatrix1 (int n, int width){
+    public static void bandMatrix1 (int n, int width){//化简
         for (int i = 1; i < n+1; i++) {
             for (int j = 1; j < n+1; j++) {
                 if(j>=i-width&&j<=i+width){
